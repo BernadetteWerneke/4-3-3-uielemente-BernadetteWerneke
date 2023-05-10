@@ -2,15 +2,20 @@
 //  CancelButton.swift
 //  Swift_TA_TravelApp
 //
-//  Created by Emily Sali on 28.02.23.
+//  Created by Bernadette Werneke on 10.05.23.
 //
 
 import SwiftUI
 
 struct CancelButton: View {
     var body: some View {
-        Text("Hi!")
-        // TODO: Schreibe hier deinen Code
+        
+        Button("Cancel"){
+        }
+        .buttonStyle(.bordered)
+        .controlSize(.large)
+        .buttonBorderShape(.capsule)
+        .foregroundColor(.blue)
     }
 }
 

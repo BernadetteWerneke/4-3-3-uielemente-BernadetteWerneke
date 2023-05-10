@@ -12,14 +12,19 @@ struct ContentView: View {
         ZStack(){
             BackgroundImage()
             .ignoresSafeArea(edges: .top)
-            .offset(y: -230)
+            .offset(x:0, y: -230)
+            
+            HStack{
+                MenuButton()
+                    .offset(x: -100, y: -330)
+                ProfileButton()
+                    .offset(x: 100, y:-330)
+            }
         
             VStack() {
-                ProfileButton()
-                    .offset(x:130, y:0)
-                Spacer()
                 CircleImage()
-                Spacer()
+                    .offset(x:0, y: 70)
+                    .padding(.bottom, 90)
                 TitleText()
                 AuthorText()
                 Divider()

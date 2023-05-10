@@ -14,8 +14,6 @@ struct AuthorText: View {
             .italic()
             .foregroundColor(.gray)
             .font(.system(size: 15, design: .serif))
-
-                
     }
 }
 

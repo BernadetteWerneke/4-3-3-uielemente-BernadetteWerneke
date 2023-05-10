@@ -11,7 +11,8 @@ struct TitleText: View {
     var body: some View {
       
             Text("LO DE MARCOS NAYARIT")
-                .font(.title)
+                //.font(.title)
+                .font(.custom("Rye-Regular", size: 24))
                 .bold()
                 .foregroundColor(.blue)
                 .underline()

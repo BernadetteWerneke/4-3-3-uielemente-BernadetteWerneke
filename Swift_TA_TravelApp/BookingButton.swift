@@ -9,7 +9,8 @@ import SwiftUI
 
 struct BookingButton: View {
     var body: some View {
-        Button("Book now!"){
+        Button(action: { print("trip booked")}){
+            Text("Book now!")
             }
         .buttonStyle(.borderedProminent)
         .controlSize(.large)

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		47163D6E29AF1FB400526220 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 47163D6329AF1FB300526220 /* README.md */; };
 		4BA400152A0BD23A005DF51F /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA400142A0BD23A005DF51F /* CancelButton.swift */; };
+		4BA400172A0C028B005DF51F /* Rye-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BA400162A0C028B005DF51F /* Rye-Regular.ttf */; };
+		4BA4001A2A0C0C20005DF51F /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA400192A0C0C20005DF51F /* MenuButton.swift */; };
 		D505313B29AE16E900E6A93F /* Swift_TA_TravelAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505313A29AE16E900E6A93F /* Swift_TA_TravelAppApp.swift */; };
 		D505313D29AE16E900E6A93F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505313C29AE16E900E6A93F /* ContentView.swift */; };
 		D505313F29AE16EA00E6A93F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D505313E29AE16EA00E6A93F /* Assets.xcassets */; };
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		47163D6329AF1FB300526220 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4BA400142A0BD23A005DF51F /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
+		4BA400162A0C028B005DF51F /* Rye-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rye-Regular.ttf"; sourceTree = "<group>"; };
+		4BA400182A0C03AA005DF51F /* Swift-TA-TravelApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Swift-TA-TravelApp-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4BA400192A0C0C20005DF51F /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		D505313729AE16E900E6A93F /* Swift_TA_TravelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_TA_TravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D505313A29AE16E900E6A93F /* Swift_TA_TravelAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TA_TravelAppApp.swift; sourceTree = "<group>"; };
 		D505313C29AE16E900E6A93F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +75,8 @@
 		D505313929AE16E900E6A93F /* Swift_TA_TravelApp */ = {
 			isa = PBXGroup;
 			children = (
+				4BA400182A0C03AA005DF51F /* Swift-TA-TravelApp-Info.plist */,
+				4BA400162A0C028B005DF51F /* Rye-Regular.ttf */,
 				D505313A29AE16E900E6A93F /* Swift_TA_TravelAppApp.swift */,
 				D505313C29AE16E900E6A93F /* ContentView.swift */,
 				D505314A29AE17BD00E6A93F /* TitleText.swift */,
@@ -80,6 +87,7 @@
 				D505315429AE1E1300E6A93F /* BookingButton.swift */,
 				D505315E29AE337F00E6A93F /* ProfileButton.swift */,
 				4BA400142A0BD23A005DF51F /* CancelButton.swift */,
+				4BA400192A0C0C20005DF51F /* MenuButton.swift */,
 				D505313E29AE16EA00E6A93F /* Assets.xcassets */,
 				D505314029AE16EA00E6A93F /* Preview Content */,
 			);
@@ -154,6 +162,7 @@
 			files = (
 				D505314229AE16EA00E6A93F /* Preview Assets.xcassets in Resources */,
 				47163D6E29AF1FB400526220 /* README.md in Resources */,
+				4BA400172A0C028B005DF51F /* Rye-Regular.ttf in Resources */,
 				D505313F29AE16EA00E6A93F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,6 +180,7 @@
 				D505314B29AE17BD00E6A93F /* TitleText.swift in Sources */,
 				D505313B29AE16E900E6A93F /* Swift_TA_TravelAppApp.swift in Sources */,
 				D505314D29AE19F900E6A93F /* AuthorText.swift in Sources */,
+				4BA4001A2A0C0C20005DF51F /* MenuButton.swift in Sources */,
 				D505314F29AE1B2A00E6A93F /* DescriptionText.swift in Sources */,
 				D505315F29AE337F00E6A93F /* ProfileButton.swift in Sources */,
 				D505315129AE1CEB00E6A93F /* CircleImage.swift in Sources */,
@@ -305,6 +315,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Swift_TA_TravelApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-TA-TravelApp-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -333,6 +344,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Swift_TA_TravelApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-TA-TravelApp-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
