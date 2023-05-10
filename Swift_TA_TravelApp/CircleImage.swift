@@ -9,8 +9,13 @@ import SwiftUI
 
 struct CircleImage: View {
     var body: some View {
-        Text("Hi!")
-        // TODO: Schreibe hier deinen Code
+        Image("LDMBeach")
+            .clipShape(Circle())
+            .scaledToFit()
+            .overlay(){
+                Circle().stroke(.white, lineWidth:4)
+            }
+            .shadow(radius: 7)
     }
 }
 

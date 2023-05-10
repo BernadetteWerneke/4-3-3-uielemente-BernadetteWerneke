@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		47163D6E29AF1FB400526220 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 47163D6329AF1FB300526220 /* README.md */; };
+		4BA400152A0BD23A005DF51F /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA400142A0BD23A005DF51F /* CancelButton.swift */; };
 		D505313B29AE16E900E6A93F /* Swift_TA_TravelAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505313A29AE16E900E6A93F /* Swift_TA_TravelAppApp.swift */; };
 		D505313D29AE16E900E6A93F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505313C29AE16E900E6A93F /* ContentView.swift */; };
 		D505313F29AE16EA00E6A93F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D505313E29AE16EA00E6A93F /* Assets.xcassets */; };
@@ -17,13 +18,13 @@
 		D505314F29AE1B2A00E6A93F /* DescriptionText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505314E29AE1B2A00E6A93F /* DescriptionText.swift */; };
 		D505315129AE1CEB00E6A93F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505315029AE1CEB00E6A93F /* CircleImage.swift */; };
 		D505315529AE1E1300E6A93F /* BookingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505315429AE1E1300E6A93F /* BookingButton.swift */; };
-		D505315729AE20DA00E6A93F /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505315629AE20DA00E6A93F /* CancelButton.swift */; };
 		D505315B29AE24BE00E6A93F /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505315A29AE24BE00E6A93F /* BackgroundImage.swift */; };
 		D505315F29AE337F00E6A93F /* ProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D505315E29AE337F00E6A93F /* ProfileButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47163D6329AF1FB300526220 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4BA400142A0BD23A005DF51F /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
 		D505313729AE16E900E6A93F /* Swift_TA_TravelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_TA_TravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D505313A29AE16E900E6A93F /* Swift_TA_TravelAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TA_TravelAppApp.swift; sourceTree = "<group>"; };
 		D505313C29AE16E900E6A93F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		D505314E29AE1B2A00E6A93F /* DescriptionText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionText.swift; sourceTree = "<group>"; };
 		D505315029AE1CEB00E6A93F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		D505315429AE1E1300E6A93F /* BookingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingButton.swift; sourceTree = "<group>"; };
-		D505315629AE20DA00E6A93F /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
 		D505315A29AE24BE00E6A93F /* BackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImage.swift; sourceTree = "<group>"; };
 		D505315E29AE337F00E6A93F /* ProfileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,8 +78,8 @@
 				D505315029AE1CEB00E6A93F /* CircleImage.swift */,
 				D505315A29AE24BE00E6A93F /* BackgroundImage.swift */,
 				D505315429AE1E1300E6A93F /* BookingButton.swift */,
-				D505315629AE20DA00E6A93F /* CancelButton.swift */,
 				D505315E29AE337F00E6A93F /* ProfileButton.swift */,
+				4BA400142A0BD23A005DF51F /* CancelButton.swift */,
 				D505313E29AE16EA00E6A93F /* Assets.xcassets */,
 				D505314029AE16EA00E6A93F /* Preview Content */,
 			);
@@ -174,7 +174,7 @@
 				D505314F29AE1B2A00E6A93F /* DescriptionText.swift in Sources */,
 				D505315F29AE337F00E6A93F /* ProfileButton.swift in Sources */,
 				D505315129AE1CEB00E6A93F /* CircleImage.swift in Sources */,
-				D505315729AE20DA00E6A93F /* CancelButton.swift in Sources */,
+				4BA400152A0BD23A005DF51F /* CancelButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

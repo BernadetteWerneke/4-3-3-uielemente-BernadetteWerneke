@@ -9,8 +9,13 @@ import SwiftUI
 
 struct AuthorText: View {
     var body: some View {
-        Text("Hi!")
-        // TODO: Schreibe hier deinen Code
+
+        Text("by Bernadette")
+            .italic()
+            .foregroundColor(.gray)
+            .font(.system(size: 15, design: .serif))
+
+                
     }
 }
 

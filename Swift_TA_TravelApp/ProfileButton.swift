@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ProfileButton: View {
     var body: some View {
-        Text("Hi!")
-        // TODO: Schreibe hier deinen Code
+        Image(systemName: "person.crop.circle")
+            .resizable()
+            .foregroundColor(.white)
+            .frame(width: 50, height: 50)
+            
     }
 }
 

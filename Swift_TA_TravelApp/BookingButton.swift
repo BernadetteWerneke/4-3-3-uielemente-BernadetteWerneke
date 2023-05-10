@@ -9,8 +9,12 @@ import SwiftUI
 
 struct BookingButton: View {
     var body: some View {
-        Text("Hi!")
-        // TODO: Schreibe hier deinen Code
+        Button("Book now!"){
+            }
+        .buttonStyle(.borderedProminent)
+        .controlSize(.large)
+        .buttonBorderShape(.capsule)
+        .foregroundColor(.white)
     }
 }
 

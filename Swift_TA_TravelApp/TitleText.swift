@@ -9,8 +9,14 @@ import SwiftUI
 
 struct TitleText: View {
     var body: some View {
-        Text("Hi!")
-        // TODO: Schreibe hier deinen Code
+      
+            Text("LO DE MARCOS NAYARIT")
+                .font(.title)
+                .bold()
+                .foregroundColor(.blue)
+                .underline()
+           
+        
     }
 }
 

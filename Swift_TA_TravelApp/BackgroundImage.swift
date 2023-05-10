@@ -9,8 +9,11 @@ import SwiftUI
 
 struct BackgroundImage: View {
     var body: some View {
-        Text("Hi!")
-        // TODO: Schreibe hier deinen Code
+        Image("LDMBeach")
+            .resizable()
+            .scaledToFit()
+            .frame(width: 400)
+            .blur(radius: 3)
     }
 }
 
